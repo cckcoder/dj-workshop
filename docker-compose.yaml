@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  myapp:
+    build: .
+    ports:
+      - "8001:8000"
+    volumes:
+      - "./app:/app"
+    env_file:
+      - ./.env.dev
+    command: python manage.py runserver 0.0.0.0:8000
