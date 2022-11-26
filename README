@@ -1,5 +1,14 @@
 # Docker Workshop
 
+## GITHUB
+[Repo](https://github.com/cckcoder/dj-workshop)
+
+## CLI
+* `docker compose exec myapp python manage.py createsuperuser`
+* `docker compose exec myapp python manage.py makemigrations`
+* `docker compose exec myapp python manage.py migrate`
+* `docker exec dj-workshop-myapp-1 cat /etc/os-release`
+
 ## Admin info
 user: `admin`
 pass: `admin0x`
